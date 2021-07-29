@@ -85,6 +85,8 @@ public class Test1 {
 	if(error.equals("Invalid login or password"))
 	{	
 		System.out.println("Test Pass");
+		
+		driver.quit();
 	
 	}
 	}
